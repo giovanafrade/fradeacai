@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+  
+.offcanvas{
+    background-color: #54265e;
+    color: #ffff;
+}
+.container-fluid{
+    display: flex;
+}
+.navbar-brand{
+    width: 30%!important;
+}
+.nav-item{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgb(251, 251, 251);
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+.offcanvas-header{
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.btn-close{
+    font-size: 1.8rem;
+}
+.navbar-toggler-icon{
+    background-image: url(media/toggler-icon.png);
+}
+button.navbar-toggler{
+    border-radius: 2rem;
+    width: 60px;
+    height: 60px;
+    background-color: #54265e;
+    z-index: 1000;  
+}
+button.navbar-toggler:hover{
+    background-color: #320432;
+    transition: 1.1s;
+}
+.navbar{
+    position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;     
+}
+.navbar-nav{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.telainicio{
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    img{
+        opacity: 75%;
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        text-align: center;
+        word-break: normal;
+        padding-right: 2.6rem;
+        padding-left: 2.6rem;
+    } 
+    h1{
+        width: 100%;
+        color: #683e93;
+        font-family: "Boogaloo", sans-serif;
+        font-size: 3.5rem;
+        text-align: center;  
+        padding-right: 1.6rem;
+        padding-left: 1.6rem;
+        padding-top: 3.6rem;
+    }
+}
